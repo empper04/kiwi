@@ -1,0 +1,9 @@
+/*
+	9. kiwi를 만들어보세요.
+
+*/
+html, body{margin: 0;padding: 0;}
+#base{background-image: url('../../실습1/실습/kiwi-bg.png');margin: 0;overflow: hidden;height: 100em;}
+#tit{color: greenyellow;}
+.ontxt{background-color: white;width: 800px;height: 500px;margin-top: 10px;margin-left: 10px;position: relative;padding: 20px;}
+#kiwi{position: absolute;right: 0;}
