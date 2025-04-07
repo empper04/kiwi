@@ -1,0 +1,35 @@
+
+html, body{margin: 0;padding: 0;position: relative;background-image: url('strawberry-bg.jpg');}
+#stbg{margin: 0;overflow: hidden;}
+.straw #tit{color: #ff0000;padding-left: 30px;}
+.straw .ontxt{background-color: #ffffff;width: 1028px;height: 510px;position: absolute;top: 30px;left: 446px;border: 1px solid #ff0000;border-radius: 30px;border-color: #ff0000;}
+
+.para{display: inline;  width: 280px; height: 140px;float: left;padding: 15px;font-size: 16px;font-family: Arial, Helvetica, sans-serif;padding-bottom: 40px;}
+
+.ui{list-style-type: none;overflow: hidden;border-style: solid ridge ;width: 240px;height: 50px;position: absolute;right: 480px;top: 50px;border-radius:25px;background-color: #ff0000;border-color: #ff0000;}
+
+.uiin {float: left;text-decoration: none;color: #ffffff;margin: 5px;height: 50px;}
+.uiin :visited{text-decoration: none;}
+#straw-food{position: absolute;border-style: solid none solid none;width: 700px;height: 230px;border-color: #ff0000;top: 250px;left: 30px ;list-style-type: none;}
+.products{float: left;position: relative;}
+
+
+.cake{background-image: url('cake-2.png');width: 174px;height: 174px;margin-top: 25px;margin-right: 25px;text-indent: -9999px;}
+.cakept{background-image: url('cakeofck.png');opacity: 0;position: absolute;left:0px;top: 0px;width: 174px;height: 174px;margin-top:25px;margin-right: 25px;}
+
+.pie{background-image: url('cake.png');width: 174px;height: 174px;margin: 25px;text-indent: -9999px;}
+.piept{background-image: url('pieofpie.png');opacity: 0;position: absolute;left:0px;top: 0px;width: 174px;height: 174px;margin:25px;}
+
+.jam{background-image: url('jam.png');width: 174px;height: 174px;margin: 25px;text-indent: -9999px;}
+.jampt{background-image: url('jamofbottle.png');opacity: 0;position: absolute;left:0px;top: 0px;width: 174px;height: 174px;margin:25px;}
+
+.products:hover .cakept{opacity: 1;}
+.products:hover .cake{opacity: 0.7;}
+.products:hover .piept{opacity: 1;}
+.products:hover .pie{opacity: 0.7;}
+.products:hover .jampt{opacity: 1;}
+.products:hover .jam{opacity: 0.7;}
+
+
+
+body .straw #strawpic{position: absolute;top: 130px;left: 680px;}
